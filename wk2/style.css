@@ -1,0 +1,57 @@
+img {
+    display: block;
+    position: relative;
+    left: 35px;
+}
+
+a:link {
+    text-decoration: none;
+    font-family: helvetica;
+    color: darkseagreen;
+}
+
+a:visited {
+    text-decoration: underline;
+    font-family: helvetica;
+    color: darksalmon;
+}
+
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    color: navy;
+    margin-left: 20px;
+    font-family: helvetica;
+}
+
+h2 {
+    color: navy;
+    margin-left: 20px;
+    font-family: helvetica;
+}
+
+h3 {
+    color: navy;
+    margin-left: 20px;
+    font-family: helvetica;
+
+}
+
+p {
+    color: navy;
+    margin-left: 30px;
+    font-family: helvetica;
+}
+
+ul {
+    color: navy;
+    font-family: helvetica;
+
+}
+
+ol {
+    color: navy;
+    font-family: helvetica;
+    
