@@ -1,0 +1,91 @@
+body {
+  background: #E6005B;
+  margin: 0;
+  font-family: Helvetica;
+}
+
+.container {
+  margin: 0 auto;
+  width: 700px;
+  padding-top: 300px;
+  background: #fff url(kor_food.jpg) no-repeat top center;
+  border-top: 1px solid #424242;
+}
+
+.sections {
+  padding: 30px 50px;
+  background: #fff;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 25px;
+}
+
+h3 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
+P {
+    text-align: center;
+}
+
+a:link, a:visited {
+ color:darkblue;
+    text-decoration: underline;
+}
+
+a:hover {
+    background: : red;
+    font-size: 1.5em;
+}
+
+.personaimgs {
+    margin: 0 auto;
+    width: auto;
+    height: auto;
+    vertical-align: top;
+    border: 3px solid #E6005B;
+    outline: 3px solid blue;
+}
+
+.personaimgs #amy {
+    padding: 10px;
+    width: 175px;
+    height: 220px;
+    margin-bottom: 15px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    position: relative;
+}
+.personaimgs #jim {
+    padding: 10px;
+    padding-bottom: 0px;
+    width: 175px;
+    height: 220px;
+    margin-bottom: 0px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    position: relative;
+}
+.personaimgs #carol {
+    padding: 10px;
+    width: 175px;
+    height: 220px;
+    margin-bottom: 15px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    position: relative;
+}
