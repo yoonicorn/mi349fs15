@@ -1,0 +1,45 @@
+body {
+    background-color: azure;
+    border: 3px solid black;
+    width: 600px;
+    margin: 0 auto;
+}
+
+h1 {
+    display: block;
+    font-size: 36px;
+    font-family: helvetica, serif;
+    position: relative; 
+    top:40px; left:190px; width:200px; margin:30px;
+}
+
+h2 {
+    display: block;
+    font-size: 24px;
+    font-family: helvetica, serif;
+    position: relative; 
+    left:220px; margin:30px;
+}
+
+p {
+    padding: 50px;
+    border-width: 10px;
+    justify-content: center;
+}
+
+.nav-buttons {
+    display: inline-block;
+    position: relative; 
+    left:160px; margin:20px;
+}
+
+.next-button {
+    display:inline-block;
+    position: relative;
+    width: 100px;
+}
+.back-button {
+    display:inline-block;
+    position: relative;
+    width: 100px;
+}
