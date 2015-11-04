@@ -1,0 +1,101 @@
+body {
+  font-family: sans-serif;
+  color: black;
+}
+
+#pagewrap {
+  padding: 5px;
+  width: 1300px;
+  margin: 15px auto;
+}
+
+header {
+  height: 100px;
+  padding: 0px 5px;
+  text-align: center;
+}
+
+#ca1 {
+  width: 200px;
+  padding: 10px 15px;
+  margin: 35px;
+  float: left;
+}
+
+#ca2 {
+  width: 200px;
+  padding: 10px 15px;
+  margin: 35px;
+  float: left;
+}
+
+#ca3 {
+  width: 200px;
+  padding: 10px 15px;
+  margin: 35px;
+  float: left;
+}
+
+section {
+  background: #f8f8f8;
+}
+
+header {
+  margin-bottom: 5px;
+}
+
+#pagewrap,
+header,
+section {
+  border: solid 1px #ccc;
+}
+/*Media Queries*/
+
+@media (min-width: 1200px) {
+  #pagewrap {
+    width: 100%;
+  }
+  #ca1 {
+    width: 25%;
+  }
+  #ca2 {
+    width: 25%;
+  }
+  #ca3 {
+    width: 25%;
+  }
+  header {
+    padding: auto auto;
+    margin: auto auto;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 1199px) {
+  #ca1 {
+    width: 20%;
+  }
+  #ca2 {
+    width: 20%;
+  }
+  #ca3 {
+    width: 20%;
+    float: none;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 799px) {
+  header {
+    height: auto;
+  }
+  #ca1 {
+    width: 15%;
+  }
+  #ca2 {
+    width: 15%;
+    float: none;
+  }
+  #ca3 {
+    width: 15%;
+    float: none;
+  }
+}
