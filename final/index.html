@@ -8,11 +8,26 @@
 <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
 </head>
 <body>
+    
+    <div id="logo">
+    <img src="Nolbu_Logo.png" alt="Nol-Bu Logo" width="235" height="75">
+    </div>
+    
+<div class="nav">
+      <ul>
+        <li class="menu"><a href="menu.html">MENU</a></li>
+        <li class="about"><a href="about.html">ABOUT</a></li>
+        <li class="contact"><a href="contact.html">CONTACT</a></li>
+      </ul>
+</div>
+    
+<div id="home">
 
-<div class="food-img">
-    <div><img src="http://kenwheeler.github.io/slick/img/fonz1.png"></div>
-    <div><img src="http://kenwheeler.github.io/slick/img/fonz1.png"></div>
-    <div><img src="http://kenwheeler.github.io/slick/img/fonz1.png"></div>
+<div class="img-caroseul">
+    <div><img src="1.jpg" alt="yukae" width="1000" height="600"></div>
+    <div><img src="2.jpg" alt="kimchi pajon" width="1000" height="600"></div>
+    <div><img src="3.jpg" alt="korean bbq" width="1000" height="600"></div>
+    <div><img src="4.jpg" alt="seafood pajon" width="1000" height="600"></div>
   </div>
 
   <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
@@ -21,8 +36,8 @@
 
   <script type="text/javascript">
     $(document).ready(function(){
-      $('.food-img').slick({
-        arrows: true,
+      $('.img-caroseul').slick({
+        arrows: false,
         autoplay: true,
         autoplaySpeed: 5000,
         infinte: true,
@@ -32,5 +47,26 @@
     });
   </script>
 
+<div id="footer">
+    <ul>
+        <li><div id="fb-root"></div><script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "http://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+        </li>
+        <li><div id="yelp-biz-badge-plain-qNZWudLTIP5niEqxvljNBA"><a href="http://yelp.com/biz/nol-bu-korean-restaurant-morton-grove" target="_blank">Check out Nol-Bu Korean Restaurant on Yelp</a></div><script>(function(d, t) {var g = d.createElement(t);var s = d.getElementsByTagName(t)[0];g.id = "yelp-biz-badge-script-plain-qNZWudLTIP5niEqxvljNBA";g.src = "http://yelp.com/biz_badge_js/en_US/plain/qNZWudLTIP5niEqxvljNBA.js";s.parentNode.insertBefore(g, s);}(document, 'script'));</script></li>
+        <li><p>Nol-Bu Korean Restaurant<br> 
+5844 Dempster St<br>
+            Morton Grove, IL 60053<br>
+            (847) 967-0066<br></p></li>
+        <li><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2963.0967482306814!2d-87.77575938455378!3d42.041105679209586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fcf4b834acb57%3A0xbde43d912f6b1efc!2sNol-Bu!5e0!3m2!1sen!2sus!4v1449893160558" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe></li>
+    </ul>
+</div>
+    <div id="cp">
+        <p>Copyright © Nol-Bu Korean Restaurant</p>
+    </div>
   </body>
 </html>

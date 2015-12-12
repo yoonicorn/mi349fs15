@@ -1,0 +1,7 @@
+https://www.msu.edu/~yoonmatt/mi349/
+
+
+Some Things to Mention...
+
+The local and hosted website has small changes to the styling and positioning of the footer. The local files can display the yelp! badge whereas the hosted files do not even if they have the same exact code. 
+In the code, the facebook badge is contained in the footer, however to actually display, I needed to be granted ownership of the business facebook page to change the viewer permissions, therefore it appears blank. (http://www.moorewebexposure.com/internet/facebook-like-button-not-showing/)
